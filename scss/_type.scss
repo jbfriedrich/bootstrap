@@ -84,6 +84,13 @@
 
 // Blockquotes
 .blockquote {
+  padding: 1rem;
+  border: 1px solid $gray-400;
+  background: transparent;
+  border-radius: .25rem;
+  border-left-width: .25rem;
+  border-left-color: $blue-400;
+  color: #6c757d;
   margin-bottom: $blockquote-margin-y;
   @include font-size($blockquote-font-size);
 
