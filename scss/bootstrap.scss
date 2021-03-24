@@ -12,15 +12,9 @@
 @import "mixins";
 @import "utilities";
 
-// Import custom class for blog
-@import "custom-colors";
-//-
 // Layout & components
 @import "root";
 @import "reboot";
-// Import custom class for blog
-@import "custom-code";
-//-
 @import "type";
 @import "images";
 @import "containers";
@@ -55,3 +49,7 @@
 // Utilities
 @import "utilities/api";
 // scss-docs-end import-stack
+
+// Import custom class for blog
+@import "custom-code";
+//-

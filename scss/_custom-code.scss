@@ -3,23 +3,6 @@
 // Custom settings for HLJS, feature images and
 // general image handling sindie post content 
 
-code,
-samp,
-kbd,
-pre {
-    border: 1px solid #222;
-    background: #111;
-}
-
-pre {
-    padding: 1rem;
-    border-radius: .3rem;
-}
-
-code {
-    color: var(--bs-pink);
-}
-
 .hljs {
     font-size: .875rem !important;
     white-space: pre-line !important;

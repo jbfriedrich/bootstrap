@@ -289,6 +289,8 @@ code,
 kbd,
 samp {
   font-family: $font-family-code;
+  border: 1px solid #222;
+  background: #111;
   @include font-size(1em); // Correct the odd `em` font sizing in all browsers.
   direction: ltr #{"/* rtl:ignore */"};
   unicode-bidi: bidi-override;
@@ -305,6 +307,8 @@ pre {
   overflow: auto; // 3
   @include font-size($code-font-size);
   color: $pre-color;
+  padding: 1rem;
+  border-radius: .3rem;
 
   // Account for some code outputs that place code tags in pre tags
   code {
